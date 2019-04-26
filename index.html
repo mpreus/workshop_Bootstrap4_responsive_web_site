@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Boostrap4_workshop</title>
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/font-awesome.min.css">
+	<link rel="stylesheet" href="style/custom.css">
+</head>
+<body>
+	
+<!-- element NAWIGACYJNY -->
+	<nav class="navbar navbar-light navbar-expand-lg">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navContent">
+				<div class="navbar-nav">
+					<a href="#" class="nav-item nav-link active text-warning">Start</a>
+					<a href="#assets" class="nav-item nav-link text-dark">Nasze atuty</a>
+					<a href="#portfolio" class="nav-item nav-link text-dark">Realizacje</a>
+					<a href="#contact-form" class="nav-item nav-link text-dark">Kontakt</a>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+<!-- sekcja TOP -->
+	<div class="jumbotron jumbotron-fluid text-white text-center top" id="new-quality">
+		<div class="container">
+			<h1 class="text-uppercase top-header">Odkryj <span class="text-warning">nową jakość</span> w budownictwie</h1>
+			<p class="top-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam in nostrum?</p>
+			<button class="btn btn-warning text-dark top-button">Więcej</button>
+		</div>
+	</div>
+
+<!-- sekcja WPROWADZENIE -->
+	<section class="introduction" id="assets">
+		<h2 class="text-center text-uppercase introduction-header">Buduj z nami</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona1.png" alt="ikona1">
+						<h3 class="introduction-item-header">Innowacja</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona2.png" alt="ikona2">
+						<h3 class="introduction-item-header">Tradycja</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/ikona3.png" alt="ikona3">
+						<h3 class="introduction-item-header">Doświadczenie</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- sekcja OPINIE -->
+	<section class="testimonial" id="feedback">
+		<div class="container">
+			<div class="text-center text-white testimonial-content mx-auto">
+				<h2 class="text-uppercase testimonial-header">Opinia <span class="text-warning">klienta</span></h2>
+				<blockquote class="blockquote">
+					<p class="testimonial-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem placeat dolore, est nulla quasi et quod voluptatibus earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+					<footer class="blockquote-footer text-white">Jan Kowalski <cite title="Inwestor">Inwestor</cite></footer>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+
+<!-- sekcja REALIZACJE -->
+	<section class="portfolio" id="portfolio">
+		<div class="portfolio-header">
+			<h2 class="text-uppercase text-center text-danger">Nasze najnowsze realizacje</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<img class="rounded img-fluid portfolio-img" src="images/inwestycja-1-mod.jpg" alt="Inwestycja 1">
+					<span class="text-uppercase page-label text-danger">Inwestycja</span>
+					<h3 class="text-uppercase portfolio-subheader">Biurowiec</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis quis deleniti possimus, sapiente perspiciatis perferendis porro dolores. Eveniet provident est commodi atque repellendus, ipsum odit! Accusamus sit dolores, distinctio!
+					</p>
+					<button class="btn btn-danger portfolio-button">
+						Czytaj więcej
+					</button>
+				</div>
+				<div class="col-md">
+					<img class="rounded img-fluid portfolio-img" src="images/inwestycja-2-mod.jpg" alt="Inwestycja 2">
+					<span class="text-uppercase page-label text-danger">Inwestycja</span>
+					<h3 class="text-uppercase portfolio-subheader">Osiedle mieszkaniowe</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis quis deleniti possimus, sapiente perspiciatis perferendis porro dolores. Eveniet provident est commodi atque repellendus, ipsum odit! Accusamus sit dolores, distinctio!
+					</p>
+					<button class="btn btn-danger portfolio-button">
+						Czytaj więcej
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- formularz KONTAKTOWY -->
+	<section class="write-to-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div id="contact-form" class="write-to-us-left">
+						<span class="text-uppercase text-success page-label">Masz Pytanie?</span>
+						<h2 class="text-uppercase write-to-us-header">Napisz do nas</h2>
+						<form action="">
+							<label for="name" class="form-control-label">Imię i nazwisko</label>
+							<input type="text" id="name" class="form-control">
+							<label for="email" class="form-control-label">E-mail</label>
+							<input type="email" id="email" class="form-control">
+							<label for="msg-title" class="form-control-label">Tytuł wiadomości</label>
+							<input type="text" id="msg-title" class="form-control">
+							<label for="message" class="form-control-label">Wiadomość</label>
+							<textarea id="message" class="form-control" cols="30" rows="5"></textarea>
+							<button class="btn btn-success">Wyślij wiadomość</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-8 d-flex">
+					<img src="images/budowlaniec.jpg" class="align-self-end img-fluid" alt="budowlaniec">
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+<!-- elementy STOPKI-->
+<footer class="text-white site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 footer-first-col">
+				<ul class="list-unstyled">
+					<li>
+						<i class="text-warning fa fa-phone" aria-hidden="true"></i> 888-223-111
+					</li>
+					<li>
+						<i class="text-warning fa fa-clock-o" aria-hidden="true"></i> Pn.-Pt. 8:00-16:00
+					</li>
+					<li>
+						<i class="text-warning fa fa-envelope" aria-hidden="true"></i> firma@kurs.yt
+					</li>
+					<li>
+						<i class="text-warning fa fa-envelope" aria-hidden="true"></i> realizacje@kurs.yt
+					</li>
+
+				</ul>
+			</div>
+			<div class="col-md-4 footer-second-col">
+				<ul class="list-unstyled">
+					<li><span class="text-warning">></span><a href="#assets">Dlaczego my</a></li>
+					<li><span class="text-warning">></span><a href="#portfolio">Zobacz nasze najnowsze realizacje</a></li>
+					<li><span class="text-warning">></span><a href="#new-quality">Jak dbamy o bezpieczeństwo</a></li>
+					<li><span class="text-warning">></span><a href="#assets">Innowacje oraz technologie</a></li>
+					<li><span class="text-warning">></span><a href="#feedback">Wybrane opinie inwestorów</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6 text-center">
+				<img src="images/mapa.jpg" alt="mapa" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- sekcja PRAWA AUTORSKIE -->
+<section class="text-center text-dark bg-warning copyright">
+	<div class="container">
+		&copy; Copyright 2019 NAZWA FIRMY Wszelkie prawa zastrzeżone
+		<span class="d-block mt-2 copyright-designed ">Designed by Strefa Kursów / developed by Maciej Preus</span>
+		<a class="text-white d-block my-1" href='https://www.freepik.com/free-vector/vehicle-icons-collection_994494.htm'>pictures</a>
+		<a class="text-white d-block my-1" href='https://www.freepik.com/free-photo/workman-pointing-to-the-latertal-over-white-background_1197371.htm'>designed by Freepik</a>
+	</div>
+	
+</section>
+
+
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
